@@ -1,0 +1,116 @@
+.topnav {
+    font-size: 18px;  
+}
+
+.container {
+    min-height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-header {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-default {
+    background-color: #282828;
+    border-bottom: 3px solid;
+    border-color: #ffae00;
+    background-image: url(../img/navtexture.png);
+    width: 100%; /*or your image's width*/
+    height: 80px; /*or your image's height*/
+    
+}
+
+.navlogo {
+    height: 60px;
+    width: 200px;
+  
+}
+
+.navbar {
+    min-height: 60px;
+}
+
+.nav li a {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffae00;
+}
+
+.divider-vertical1 {
+    height: 30px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    border-left: 1px solid #ffae00;
+}
+
+    .divider-vertical2 {
+        height: 30px;
+        margin: 0px;
+        margin-top: 10px;
+        border-left: 1px solid #ffae00;
+    }
+
+        .divider-vertical3 {
+            height: 30px;
+            margin: 0px;
+            margin-top: 10px;
+            border-left: 1px solid #ffae00;
+        }
+
+            .divider-vertical4 {
+                height: 30px;
+                margin: 0px;
+                margin-top: 10px;
+                border-left: 1px solid #ffae00;
+            }
+            
+                .divider-vertical5 {
+                    height: 30px;
+                    margin: 0px;
+                    margin-top: 10px;
+                    border-left: 1px solid #ffae00;
+                }
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #7e7e7e;
+    border-left-color: #7e7e7e;
+}
+
+
+@media (max-width: 1000px) {
+    .navbar-collapse .nav > .divider-vertical1{
+        display: none;
+    }
+    
+    .navbar-collapse .nav > .divider-vertical2{
+        display: none;
+    }
+    
+    .navbar-collapse .nav > .divider-vertical3{
+        display: none;
+    }
+    
+    .navbar-collapse .nav > .divider-vertical4{
+        display: none;
+    }
+    
+    .navbar-collapse .nav > .divider-vertical5{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar-collapse .nav li a {
+        padding: 10px;
+    }
+}
+
+
+
